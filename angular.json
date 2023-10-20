@@ -50,9 +50,12 @@
               "src/assets"
             ],
             "styles": [
+              "../SUKALI/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../SUKALI/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,5 +122,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "aca4ea45-665f-4453-afcd-c1e11f02f735"
   }
 }
