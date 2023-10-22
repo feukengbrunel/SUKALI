@@ -6,6 +6,13 @@ import { AppComponent } from './app.component';
 import { SloginComponent } from './slogin/slogin.component';
 import { SmotDePasseOublierComponent } from './smot-de-passe-oublier/smot-de-passe-oublier.component';
 
+import {SharedService} from './shared.service';
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,9 +21,12 @@ import { SmotDePasseOublierComponent } from './smot-de-passe-oublier/smot-de-pas
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
