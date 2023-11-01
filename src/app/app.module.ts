@@ -9,6 +9,7 @@ import { SmotDePasseOublierComponent } from './smot-de-passe-oublier/smot-de-pas
 import {SharedService} from './shared.service';
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ClientComponent } from './client/client.component';
 
 
 
@@ -17,7 +18,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     SloginComponent,
-    SmotDePasseOublierComponent
+    SmotDePasseOublierComponent,
+    ClientComponent
   ],
   imports: [
     BrowserModule,
