@@ -1,1 +1,9 @@
+body::-webkit-scrollbar{
+   display: none;
+}
+
+
+body::-webkit-scrollbar-thumb{
+    background-color: #0e6253;
+}
 
